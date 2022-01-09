@@ -11,7 +11,7 @@ ok:
 tencent:
   sms:
     account:
-      secret-id: 1111
+      secret-id: 1234
       secret-key:
       sign_name:
       sms-sdk-app-id:
