@@ -11,8 +11,10 @@ ok:
 tencent:
   sms:
     account:
-      secret-id: AKID1C8oDLCo9D3dwynLegRv96mAI9j23oIV
-      secret-key: yg7HAm7AwRgeMmwoPjnZ4VgbFchW4LL3
-      sign_name: monsterIT公众号
-      sms-sdk-app-id: 1400618277
-      template-id: 1263085
+      secret-id:
+      secret-key:
+      sign_name:
+      sms-sdk-app-id:
+      template-id:
+
+#
