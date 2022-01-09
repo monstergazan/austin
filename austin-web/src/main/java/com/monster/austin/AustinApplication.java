@@ -1,27 +1,45 @@
 package com.monster.austin;
 
+import com.monster.austin.pojo.SmsParam;
+import com.monster.austin.script.TencentSmsScript;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Arrays;
+import java.util.HashSet;
 
 @SpringBootApplication
 @RestController
 public class AustinApplication {
-    private final Logger logger = LoggerFactory.getLogger(AustinApplication.class);
 
-    public static void main(String[] args){
-        SpringApplication.run(AustinApplication.class,args);
+    @Autowired
+    private TencentSmsScript tencentSmsScript;
+    public static void main(String[] args) {
+        SpringApplication.run(AustinApplication.class, args);
     }
 
-    @GetMapping("/hello")
-    public String hello(@RequestParam(value = "name",defaultValue = "World")String name){
-        logger.error("error logback for austin");
-        logger.info("info logback for austin");
+    /**
+     * @param phone 手机号
+     * @return
+     */
+    @GetMapping("/sendSms")
+    public String sendSms(String phone,String content) {
 
-        return String.format("hello %s!",name);
+        /**
+         * 这里的content指的是模板占位符的参数值
+         */
+        SmsParam smsParam = SmsParam.builder()
+                .phones(new HashSet<>(Arrays.asList(phone)))
+                .content(content)
+                .build();
+
+        return tencentSmsScript.send(smsParam);
+
     }
 }
