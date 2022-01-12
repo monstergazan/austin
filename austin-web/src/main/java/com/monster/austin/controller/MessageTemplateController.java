@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  *
  */
-@RestController
+//@RestController
 //@RequestMapping("/messageTemplate")
 public class MessageTemplateController {
 

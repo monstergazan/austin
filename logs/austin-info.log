@@ -106,3 +106,125 @@
 2022-01-11 22:59:20.427 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-01-11 22:59:20.429 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2022-01-11 22:59:20.431 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-12 00:23:59.549 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73600 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-12 00:23:59.551 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-12 00:24:00.165 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-12 00:24:00.211 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2022-01-12 00:24:00.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-12 00:24:00.614 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:24:00.615 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-12 00:24:00.615 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-12 00:24:00.676 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-12 00:24:00.676 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1081 ms
+2022-01-12 00:24:00.799 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-12 00:24:01.149 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-12 00:24:01.184 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-12 00:24:01.255 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-12 00:24:01.346 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-12 00:24:01.434 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-12 00:24:01.874 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-12 00:24:01.882 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:24:02.425 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:24:02.426 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-12 00:24:02.563 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-12 00:24:02.565 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-12 00:24:02.575 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-12 00:24:24.084 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73624 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-12 00:24:24.086 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-12 00:24:24.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-12 00:24:24.728 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2022-01-12 00:24:25.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-12 00:24:25.119 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:24:25.120 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-12 00:24:25.120 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-12 00:24:25.180 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-12 00:24:25.180 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
+2022-01-12 00:24:25.301 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-12 00:24:25.710 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-12 00:24:25.744 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-12 00:24:25.816 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-12 00:24:25.904 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-12 00:24:25.988 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-12 00:24:26.419 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-12 00:24:26.428 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:24:27.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:24:27.098 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-12 00:24:27.107 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.409 seconds (JVM running for 3.984)
+2022-01-12 00:24:40.116 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:24:40.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-12 00:24:40.120 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-12 00:25:05.486 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73660 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-12 00:25:05.488 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-12 00:25:05.996 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-12 00:25:06.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2022-01-12 00:25:06.506 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-12 00:25:06.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:25:06.514 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-12 00:25:06.514 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-12 00:25:06.575 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-12 00:25:06.575 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
+2022-01-12 00:25:06.695 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-12 00:25:08.410 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-12 00:25:08.446 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-12 00:25:08.516 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-12 00:25:08.608 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-12 00:25:08.693 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-12 00:25:09.130 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-12 00:25:09.139 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:25:09.669 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:25:09.670 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-12 00:25:10.486 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-12 00:25:10.489 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-12 00:25:10.500 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-12 00:25:27.986 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73688 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-12 00:25:27.989 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-12 00:25:28.610 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-12 00:25:28.665 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2022-01-12 00:25:29.125 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-12 00:25:29.134 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:25:29.134 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-12 00:25:29.134 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-12 00:25:29.203 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-12 00:25:29.204 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1167 ms
+2022-01-12 00:25:29.358 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-12 00:25:29.814 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-12 00:25:29.902 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-12 00:25:29.949 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-12 00:25:30.067 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-12 00:25:30.172 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-12 00:25:30.711 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-12 00:25:30.722 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:25:31.478 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:25:31.503 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-12 00:25:31.512 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.973 seconds (JVM running for 5.169)
+2022-01-12 00:25:48.763 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:25:48.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-12 00:25:48.769 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-12 00:25:52.673 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73708 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-12 00:25:52.675 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-12 00:25:53.241 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-12 00:25:53.290 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2022-01-12 00:25:53.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-12 00:25:53.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:25:53.719 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-12 00:25:53.719 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-12 00:25:53.784 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-12 00:25:53.784 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1060 ms
+2022-01-12 00:25:53.904 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-12 00:25:54.287 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-12 00:25:54.322 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-12 00:25:54.391 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-12 00:25:54.480 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-12 00:25:54.565 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-12 00:25:55.010 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-12 00:25:55.019 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:25:55.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-12 00:25:55.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-12 00:25:55.696 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.454 seconds (JVM running for 4.092)
+2022-01-12 00:26:37.235 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 00:26:37.237 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-12 00:26:37.240 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
