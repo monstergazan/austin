@@ -90,7 +90,7 @@ public class TencentSmsScript implements SmsScript{
         List<SmsRecord> smsRecordList = new ArrayList<>();
 
         for(SendStatus sendStatus : response.getSendStatusSet()){
-            System.out.println(sendStatus.getPhoneNumber());
+//            System.out.println(sendStatus.getPhoneNumber());
             String phone = new StringBuilder(new StringBuilder(sendStatus.getPhoneNumber())
             .reverse().substring(0,PHONE_NUM)).reverse().toString();
             SmsRecord smsRecord = SmsRecord.builder()
