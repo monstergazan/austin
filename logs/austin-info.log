@@ -1,254 +1,453 @@
-2022-01-11 22:35:48.295 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 68983 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-11 22:35:48.299 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-11 22:35:48.924 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-11 22:35:48.973 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
-2022-01-11 22:35:49.467 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-11 22:35:49.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:35:49.477 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-11 22:35:49.478 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-11 22:35:49.548 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-11 22:35:49.549 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1196 ms
-2022-01-11 22:35:49.703 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-11 22:35:50.526 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-11 22:35:50.576 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-11 22:35:50.678 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-11 22:35:50.848 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-11 22:35:50.979 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-11 22:35:51.598 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-11 22:35:51.609 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:35:52.442 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:35:52.467 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-11 22:35:52.476 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.685 seconds (JVM running for 5.485)
-2022-01-11 22:36:38.645 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-01-11 22:36:38.645 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-01-11 22:36:38.647 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2022-01-11 22:37:05.330 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:37:05.333 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-11 22:37:05.337 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-11 22:54:31.101 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 69722 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-11 22:54:31.104 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-11 22:54:31.661 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-11 22:54:31.702 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
-2022-01-11 22:54:32.085 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-11 22:54:32.091 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:54:32.092 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-11 22:54:32.092 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-11 22:54:32.151 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-11 22:54:32.151 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 994 ms
-2022-01-11 22:54:32.277 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-11 22:54:33.300 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-11 22:54:33.334 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-11 22:54:33.406 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-11 22:54:33.494 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-11 22:54:33.580 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-11 22:54:34.033 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-11 22:54:34.042 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:54:34.711 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:54:34.734 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-11 22:54:34.745 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.013 seconds (JVM running for 4.598)
-2022-01-11 22:54:55.806 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-01-11 22:54:55.806 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-01-11 22:54:55.807 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2022-01-11 22:56:03.157 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:56:03.159 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-11 22:56:03.162 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-11 22:56:08.986 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 69794 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-11 22:56:08.989 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-11 22:56:09.589 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-11 22:56:09.634 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
-2022-01-11 22:56:10.030 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-11 22:56:10.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:56:10.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-11 22:56:10.037 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-11 22:56:10.094 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-11 22:56:10.094 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1058 ms
-2022-01-11 22:56:10.217 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-11 22:56:10.807 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-11 22:56:10.842 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-11 22:56:10.915 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-11 22:56:11.005 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-11 22:56:11.093 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-11 22:56:11.549 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-11 22:56:11.560 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:56:12.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:56:12.272 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-11 22:56:12.281 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.611 seconds (JVM running for 4.301)
-2022-01-11 22:56:30.319 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-01-11 22:56:30.319 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-01-11 22:56:30.320 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2022-01-11 22:57:11.410 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:57:11.412 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-11 22:57:11.415 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-11 22:57:59.024 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 69924 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-11 22:57:59.028 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-11 22:57:59.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-11 22:57:59.667 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
-2022-01-11 22:58:00.059 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-11 22:58:00.066 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:58:00.066 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-11 22:58:00.066 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-11 22:58:00.130 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-11 22:58:00.130 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms
-2022-01-11 22:58:00.254 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-11 22:58:00.635 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-11 22:58:00.671 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-11 22:58:00.743 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-11 22:58:00.832 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-11 22:58:00.920 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-11 22:58:01.367 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-11 22:58:01.375 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:58:02.092 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-11 22:58:02.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-11 22:58:02.123 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.478 seconds (JVM running for 4.093)
-2022-01-11 22:58:02.946 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-01-11 22:58:02.946 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-01-11 22:58:02.947 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2022-01-11 22:59:20.427 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-11 22:59:20.429 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-11 22:59:20.431 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-12 00:23:59.549 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73600 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-12 00:23:59.551 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-12 00:24:00.165 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-12 00:24:00.211 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
-2022-01-12 00:24:00.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-12 00:24:00.614 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:24:00.615 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-12 00:24:00.615 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-12 00:24:00.676 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-12 00:24:00.676 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1081 ms
-2022-01-12 00:24:00.799 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-12 00:24:01.149 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-12 00:24:01.184 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-12 00:24:01.255 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-12 00:24:01.346 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-12 00:24:01.434 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-12 00:24:01.874 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-12 00:24:01.882 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:24:02.425 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:24:02.426 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-12 00:24:02.563 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-12 00:24:02.565 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2022-01-12 00:24:02.575 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-01-13 17:26:02.520 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 11901 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-13 17:26:02.524 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-13 17:26:03.236 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-13 17:26:03.292 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2022-01-13 17:26:03.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-13 17:26:03.855 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-13 17:26:03.856 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-13 17:26:03.856 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-13 17:26:03.945 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-13 17:26:03.945 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1371 ms
+2022-01-13 17:26:04.096 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-13 17:26:04.547 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-13 17:26:04.642 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-13 17:26:04.701 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-13 17:26:04.874 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-13 17:26:05.001 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-13 17:26:05.630 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-13 17:26:05.641 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-13 17:26:06.626 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = []
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-13 17:26:06.651 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-13 17:26:06.651 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-13 17:26:06.651 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-13 17:26:06.652 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-13 17:26:06.654 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-13 17:26:06.656 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-13 17:26:06.660 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-13 17:26:06.662 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-13 17:26:06.672 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-01-12 00:24:24.084 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73624 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-12 00:24:24.086 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-12 00:24:24.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-12 00:24:24.728 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
-2022-01-12 00:24:25.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-12 00:24:25.119 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:24:25.120 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-12 00:24:25.120 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-12 00:24:25.180 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-12 00:24:25.180 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
-2022-01-12 00:24:25.301 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-12 00:24:25.710 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-12 00:24:25.744 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-12 00:24:25.816 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-12 00:24:25.904 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-12 00:24:25.988 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-12 00:24:26.419 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-12 00:24:26.428 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:24:27.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:24:27.098 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-12 00:24:27.107 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.409 seconds (JVM running for 3.984)
-2022-01-12 00:24:40.116 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:24:40.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-12 00:24:40.120 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-12 00:25:05.486 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73660 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-12 00:25:05.488 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-12 00:25:05.996 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-12 00:25:06.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
-2022-01-12 00:25:06.506 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-12 00:25:06.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:25:06.514 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-12 00:25:06.514 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-12 00:25:06.575 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-12 00:25:06.575 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
-2022-01-12 00:25:06.695 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-12 00:25:08.410 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-12 00:25:08.446 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-12 00:25:08.516 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-12 00:25:08.608 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-12 00:25:08.693 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-12 00:25:09.130 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-12 00:25:09.139 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:25:09.669 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:25:09.670 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-12 00:25:10.486 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-12 00:25:10.489 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2022-01-12 00:25:10.500 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-01-13 17:26:28.681 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 11929 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-13 17:26:28.685 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-13 17:26:29.232 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-13 17:26:29.279 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2022-01-13 17:26:29.701 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-13 17:26:29.709 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-13 17:26:29.709 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-13 17:26:29.709 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-13 17:26:29.780 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-13 17:26:29.780 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1044 ms
+2022-01-13 17:26:29.896 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-13 17:26:30.408 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-13 17:26:30.484 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-13 17:26:30.517 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-13 17:26:30.607 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-13 17:26:30.694 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-13 17:26:31.124 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-13 17:26:31.132 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-13 17:26:31.927 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = []
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-13 17:26:31.943 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-13 17:26:31.944 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-13 17:26:31.944 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-13 17:26:31.945 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-13 17:26:31.947 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-13 17:26:31.948 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-13 17:26:31.986 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-13 17:26:31.988 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-13 17:26:31.999 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-01-12 00:25:27.986 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73688 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-12 00:25:27.989 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-12 00:25:28.610 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-12 00:25:28.665 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
-2022-01-12 00:25:29.125 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-12 00:25:29.134 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:25:29.134 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-12 00:25:29.134 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-12 00:25:29.203 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-12 00:25:29.204 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1167 ms
-2022-01-12 00:25:29.358 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-12 00:25:29.814 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-12 00:25:29.902 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-12 00:25:29.949 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-12 00:25:30.067 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-12 00:25:30.172 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-12 00:25:30.711 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-12 00:25:30.722 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:25:31.478 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:25:31.503 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-12 00:25:31.512 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.973 seconds (JVM running for 5.169)
-2022-01-12 00:25:48.763 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:25:48.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-12 00:25:48.769 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-12 00:25:52.673 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 73708 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-12 00:25:52.675 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-12 00:25:53.241 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-12 00:25:53.290 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
-2022-01-12 00:25:53.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-12 00:25:53.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:25:53.719 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-12 00:25:53.719 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-12 00:25:53.784 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-12 00:25:53.784 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1060 ms
-2022-01-12 00:25:53.904 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-12 00:25:54.287 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-12 00:25:54.322 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-12 00:25:54.391 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-12 00:25:54.480 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-12 00:25:54.565 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-12 00:25:55.010 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-12 00:25:55.019 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:25:55.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-12 00:25:55.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-12 00:25:55.696 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.454 seconds (JVM running for 4.092)
-2022-01-12 00:26:37.235 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 00:26:37.237 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-12 00:26:37.240 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-01-12 22:02:24.551 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 95619 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-12 22:02:24.554 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-12 22:02:25.173 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-12 22:02:25.230 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
-2022-01-12 22:02:25.742 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-12 22:02:25.753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-12 22:02:25.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-12 22:02:25.754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-12 22:02:25.827 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-12 22:02:25.827 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1226 ms
-2022-01-12 22:02:25.976 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-12 22:02:26.408 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-12 22:02:26.458 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-12 22:02:26.566 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-12 22:02:26.756 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-12 22:02:26.892 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-12 22:02:27.533 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-12 22:02:27.544 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-12 22:02:28.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-12 22:02:28.409 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-12 22:02:28.419 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.351 seconds (JVM running for 5.18)
-2022-01-12 22:02:36.222 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-01-12 22:02:36.222 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-01-12 22:02:36.223 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-13 17:32:40.862 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 12453 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-13 17:32:40.865 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-13 17:32:41.441 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-13 17:32:41.491 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2022-01-13 17:32:41.938 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-13 17:32:41.945 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-13 17:32:41.946 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-13 17:32:41.946 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-13 17:32:42.017 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-13 17:32:42.018 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1104 ms
+2022-01-13 17:32:42.146 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-13 17:32:42.484 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-13 17:32:42.561 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-13 17:32:42.595 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-13 17:32:42.684 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-13 17:32:42.774 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-13 17:32:43.232 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-13 17:32:43.242 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-13 17:32:44.057 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = []
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-13 17:32:44.073 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-13 17:32:44.073 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-13 17:32:44.073 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-13 17:32:44.074 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-13 17:32:44.076 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-13 17:32:44.077 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-13 17:32:44.080 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-13 17:32:44.082 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-01-13 17:32:44.091 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-13 17:35:25.443 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 12572 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-13 17:35:25.445 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-13 17:35:26.114 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-13 17:35:26.157 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2022-01-13 17:35:26.575 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-13 17:35:26.582 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-13 17:35:26.583 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-13 17:35:26.583 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-13 17:35:26.649 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-13 17:35:26.649 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+2022-01-13 17:35:26.768 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-13 17:35:27.125 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-13 17:35:27.219 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-13 17:35:27.262 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-13 17:35:27.364 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-13 17:35:27.449 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-13 17:35:27.880 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-13 17:35:27.889 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-13 17:35:28.840 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-13 17:35:28.913 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-13 17:35:28.913 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-13 17:35:28.913 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642066528911
+2022-01-13 17:35:28.915 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
+2022-01-13 17:35:28.926 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-13 17:35:28.948 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-13 17:35:28.958 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.046 seconds (JVM running for 4.822)
+2022-01-13 17:35:29.493 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-13 17:35:29.495 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-13 17:35:29.497 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-13 17:35:29.549 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-13 17:35:29.566 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=1, memberId='consumer-austinGroup1-1-5f72a1aa-9d35-4409-8242-05b926adec45', protocol='range'}
+2022-01-13 17:35:29.569 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 1: {consumer-austinGroup1-1-5f72a1aa-9d35-4409-8242-05b926adec45=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-13 17:35:29.595 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=1, memberId='consumer-austinGroup1-1-5f72a1aa-9d35-4409-8242-05b926adec45', protocol='range'}
+2022-01-13 17:35:29.596 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-13 17:35:29.598 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-13 17:35:29.621 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-3
+2022-01-13 17:35:29.621 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-2
+2022-01-13 17:35:29.621 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-1
+2022-01-13 17:35:29.621 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-0
+2022-01-13 17:35:29.640 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-3
+2022-01-13 17:35:29.641 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-2
+2022-01-13 17:35:29.641 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-1
+2022-01-13 17:35:29.641 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Found no committed offset for partition austin-0
+2022-01-13 17:35:29.703 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Resetting offset for partition austin-3 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-13 17:35:29.704 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Resetting offset for partition austin-2 to position FetchPosition{offset=6, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-13 17:35:29.704 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Resetting offset for partition austin-1 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-13 17:35:29.704 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Resetting offset for partition austin-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-13 17:35:29.743 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-13 17:35:41.299 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  com.monster.austin.kafkatest.UserLogConsumer - >>>>>>>>>> record =Optional[  ]
+2022-01-13 17:35:43.390 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  com.monster.austin.kafkatest.UserLogConsumer - >>>>>>>>>> record =Optional[sdfdsf]
+2022-01-13 17:35:48.118 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  com.monster.austin.kafkatest.UserLogConsumer - >>>>>>>>>> record =Optional[jiazhen666.]
