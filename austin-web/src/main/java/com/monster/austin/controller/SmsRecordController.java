@@ -20,7 +20,7 @@ public class SmsRecordController {
      */
     @GetMapping("/insert")
     public String insert(Integer phone) {
-        smsRecordDao.save(SmsRecord.builder().phone(Long.valueOf("13265910865")).build());
+//        smsRecordDao.save(SmsRecord.builder().phone(Long.valueOf("13265910865")).build());
         return null;
     }
 
@@ -29,9 +29,9 @@ public class SmsRecordController {
      */
     @GetMapping("/query")
     public List<SmsRecord> query() {
-        List<SmsRecord> smsRecordList =(List<SmsRecord>) smsRecordDao.findAll();
-        return smsRecordList;
-//        return null;
+//        List<SmsRecord> smsRecordList =(List<SmsRecord>) smsRecordDao.findAll();
+//        return smsRecordList;
+        return null;
     }
 
 

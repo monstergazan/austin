@@ -1,4 +1,4 @@
-package com.monster.austin.pojo.vo;
+package com.monster.austin.vo;
 
 import com.monster.austin.constant.RespStatusEnum;
 import lombok.AllArgsConstructor;
