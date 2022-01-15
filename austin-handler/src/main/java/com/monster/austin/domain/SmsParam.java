@@ -1,4 +1,4 @@
-package com.monster.austin.pojo;
+package com.monster.austin.domain;
 
 import lombok.Builder;
 import lombok.Data;

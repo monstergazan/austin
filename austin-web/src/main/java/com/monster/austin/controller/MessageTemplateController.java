@@ -34,7 +34,7 @@ public class MessageTemplateController {
                 .flowId("yyyy")
                 .msgStatus(10)
                 .idType(20)
-                .sendChannel(10)
+                .sendChannel(30)
                 .templateType(10)
                 .msgType(10)
                 .expectPushTime("0")

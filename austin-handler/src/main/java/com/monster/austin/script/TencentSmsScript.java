@@ -7,7 +7,7 @@ import com.alibaba.fastjson.JSON;
 import com.google.common.base.Throwables;
 import com.monster.austin.domain.SmsRecord;
 import com.monster.austin.enums.SmsStatus;
-import com.monster.austin.pojo.SmsParam;
+import com.monster.austin.domain.SmsParam;
 import com.tencentcloudapi.common.Credential;
 import com.tencentcloudapi.common.exception.TencentCloudSDKException;
 import com.tencentcloudapi.common.profile.ClientProfile;
@@ -73,7 +73,7 @@ public class TencentSmsScript implements SmsScript{
 
             return assembleSmsRecord(smsParam,response);
 
-        } catch (TencentCloudSDKException e) {
+        } catch (Exception e) {
             log.error("send tencent sms fail!{},params:{}",
                     Throwables.getStackTraceAsString(e), JSON.toJSONString(smsParam));
             return null;

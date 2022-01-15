@@ -1,6 +1,6 @@
 package com.monster.austin.vo;
 
-import com.monster.austin.constant.RespStatusEnum;
+import com.monster.austin.enums.RespStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 /**
  * 责任链上下文
@@ -13,6 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Accessors(chain = true)
 public class ProcessContext {
 
     /**
@@ -28,11 +30,11 @@ public class ProcessContext {
     /**
      * 责任链中断的标识
      */
-    private Boolean needBreak = false;
+    private Boolean needBreak;
 
     /**
      * 流程处理的结果
      */
-    BasicResultVO response = BasicResultVO.success();
+    BasicResultVO response;
 
 }

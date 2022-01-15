@@ -1,22 +1,22 @@
-2022-01-14 16:31:15.067 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 20586 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
-2022-01-14 16:31:15.071 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2022-01-14 16:31:15.696 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-14 16:31:15.754 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
-2022-01-14 16:31:16.295 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-01-14 16:31:16.305 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-01-14 16:31:16.306 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-01-14 16:31:16.306 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2022-01-14 16:31:16.388 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-01-14 16:31:16.388 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1269 ms
-2022-01-14 16:31:16.542 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-01-14 16:31:16.969 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-01-14 16:31:17.064 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-14 16:31:17.127 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-14 16:31:17.301 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-14 16:31:17.429 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-01-14 16:31:18.056 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-14 16:31:18.068 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-14 16:31:19.070 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+2022-01-15 17:44:31.912 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 34013 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-15 17:44:31.916 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-15 17:44:32.602 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-15 17:44:32.669 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2022-01-15 17:44:33.240 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-15 17:44:33.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:44:33.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-15 17:44:33.251 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-15 17:44:33.347 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-15 17:44:33.348 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1382 ms
+2022-01-15 17:44:33.494 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-15 17:44:33.943 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-15 17:44:34.042 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-15 17:44:34.108 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-15 17:44:34.277 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-15 17:44:34.413 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-15 17:44:35.043 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-15 17:44:35.054 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:44:36.060 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.offset.reset = latest
@@ -95,36 +95,1433 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2022-01-14 16:31:19.150 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
-2022-01-14 16:31:19.150 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
-2022-01-14 16:31:19.150 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642149079148
-2022-01-14 16:31:19.152 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
-2022-01-14 16:31:19.162 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-01-14 16:31:19.183 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-14 16:31:19.333 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.739 seconds (JVM running for 5.546)
-2022-01-14 16:31:19.709 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
-2022-01-14 16:31:19.711 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
-2022-01-14 16:31:19.723 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
-2022-01-14 16:31:19.826 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
-2022-01-14 16:31:19.857 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=13, memberId='consumer-austinGroup1-1-42bea66f-7ba1-41e3-86a8-fbe691e45e0c', protocol='range'}
-2022-01-14 16:31:19.859 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 13: {consumer-austinGroup1-1-42bea66f-7ba1-41e3-86a8-fbe691e45e0c=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
-2022-01-14 16:31:19.886 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=13, memberId='consumer-austinGroup1-1-42bea66f-7ba1-41e3-86a8-fbe691e45e0c', protocol='range'}
-2022-01-14 16:31:19.887 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
-2022-01-14 16:31:19.890 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
-2022-01-14 16:31:19.996 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
-2022-01-14 16:31:19.996 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
-2022-01-14 16:31:19.996 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
-2022-01-14 16:31:19.997 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
-2022-01-14 16:31:19.998 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
-2022-01-14 16:31:24.242 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
-2022-01-14 16:31:24.243 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
-2022-01-14 16:31:24.243 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Member consumer-austinGroup1-1-42bea66f-7ba1-41e3-86a8-fbe691e45e0c sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
-2022-01-14 16:31:24.246 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Unsubscribed all topics or patterns and assigned partitions
-2022-01-14 16:31:24.264 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
-2022-01-14 16:31:24.265 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-01-14 16:31:24.265 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
-2022-01-14 16:31:24.271 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
-2022-01-14 16:31:24.271 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - austinGroup1: Consumer stopped
-2022-01-14 16:31:24.274 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-14 16:31:24.277 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-01-14 16:31:24.280 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-15 17:44:36.146 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:44:36.146 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:44:36.146 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642239876144
+2022-01-15 17:44:36.148 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
+2022-01-15 17:44:36.160 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-sms-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = sms
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:44:36.167 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:44:36.167 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:44:36.167 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642239876167
+2022-01-15 17:44:36.167 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Subscribed to topic(s): austin
+2022-01-15 17:44:36.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:44:36.191 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-15 17:44:36.360 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.967 seconds (JVM running for 5.844)
+2022-01-15 17:44:36.718 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-sms-2, groupId=sms] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:44:36.718 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:44:36.720 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:44:36.720 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:44:36.722 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:44:36.722 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:44:36.780 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:44:36.780 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:44:36.800 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully joined group with generation Generation{generationId=1, memberId='consumer-sms-2-78bcaf9a-4245-43c5-8ed9-00e36910e220', protocol='range'}
+2022-01-15 17:44:36.803 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=15, memberId='consumer-austinGroup1-1-8deb5afd-a55d-4825-a00e-50f07af2e164', protocol='range'}
+2022-01-15 17:44:36.803 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Finished assignment for group at generation 1: {consumer-sms-2-78bcaf9a-4245-43c5-8ed9-00e36910e220=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:44:36.804 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 15: {consumer-austinGroup1-1-8deb5afd-a55d-4825-a00e-50f07af2e164=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:44:36.854 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=15, memberId='consumer-austinGroup1-1-8deb5afd-a55d-4825-a00e-50f07af2e164', protocol='range'}
+2022-01-15 17:44:36.855 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:44:36.858 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:44:36.864 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully synced group in generation Generation{generationId=1, memberId='consumer-sms-2-78bcaf9a-4245-43c5-8ed9-00e36910e220', protocol='range'}
+2022-01-15 17:44:36.864 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:44:36.864 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:44:36.883 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-3
+2022-01-15 17:44:36.883 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-2
+2022-01-15 17:44:36.883 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-1
+2022-01-15 17:44:36.883 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-0
+2022-01-15 17:44:36.909 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:44:36.910 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:44:36.910 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:44:36.910 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:44:36.911 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:44:36.911 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-3
+2022-01-15 17:44:36.911 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-2
+2022-01-15 17:44:36.912 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-1
+2022-01-15 17:44:36.912 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Found no committed offset for partition austin-0
+2022-01-15 17:44:36.967 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-sms-2, groupId=sms] Resetting offset for partition austin-3 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-15 17:44:36.968 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-sms-2, groupId=sms] Resetting offset for partition austin-2 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-15 17:44:36.968 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-sms-2, groupId=sms] Resetting offset for partition austin-1 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-15 17:44:36.968 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-sms-2, groupId=sms] Resetting offset for partition austin-0 to position FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}.
+2022-01-15 17:44:36.988 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:45:16.122 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-15 17:45:16.122 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-15 17:45:16.123 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-15 17:45:43.710 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:45:43.710 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:45:43.711 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:45:43.711 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:45:43.711 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Member consumer-austinGroup1-1-8deb5afd-a55d-4825-a00e-50f07af2e164 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:45:43.711 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Member consumer-sms-2-78bcaf9a-4245-43c5-8ed9-00e36910e220 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:45:43.713 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:45:43.713 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:45:43.757 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:45:43.757 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:45:43.758 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:45:43.758 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:45:43.758 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:45:43.758 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:45:43.765 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-15 17:45:43.765 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-sms-2 unregistered
+2022-01-15 17:45:43.766 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - austinGroup1: Consumer stopped
+2022-01-15 17:45:43.766 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - sms: Consumer stopped
+2022-01-15 17:45:43.769 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:45:43.771 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-15 17:45:43.774 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-15 17:46:46.970 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 34114 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-15 17:46:46.973 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-15 17:46:47.561 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-15 17:46:47.613 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2022-01-15 17:46:48.091 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-15 17:46:48.098 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:46:48.099 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-15 17:46:48.099 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-15 17:46:48.178 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-15 17:46:48.179 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1160 ms
+2022-01-15 17:46:48.293 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-15 17:46:48.659 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-15 17:46:48.742 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-15 17:46:48.778 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-15 17:46:48.874 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-15 17:46:48.962 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-15 17:46:49.438 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-15 17:46:49.446 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:46:50.299 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:46:50.351 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:46:50.351 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:46:50.352 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240010350
+2022-01-15 17:46:50.354 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
+2022-01-15 17:46:50.363 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-sms-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = sms
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:46:50.369 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:46:50.369 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:46:50.369 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240010369
+2022-01-15 17:46:50.369 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Subscribed to topic(s): austin
+2022-01-15 17:46:50.370 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:46:50.543 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-15 17:46:50.553 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.039 seconds (JVM running for 4.841)
+2022-01-15 17:46:50.806 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:46:50.806 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-sms-2, groupId=sms] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:46:50.807 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:46:50.807 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:46:50.809 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:46:50.809 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:46:50.863 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:46:50.863 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:46:50.881 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=17, memberId='consumer-austinGroup1-1-eb30b5ca-aad1-4661-b1b8-b41a4916f0f4', protocol='range'}
+2022-01-15 17:46:50.881 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully joined group with generation Generation{generationId=3, memberId='consumer-sms-2-b02aaf72-a089-4138-a90b-7a50cd83a191', protocol='range'}
+2022-01-15 17:46:50.883 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 17: {consumer-austinGroup1-1-eb30b5ca-aad1-4661-b1b8-b41a4916f0f4=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:46:50.883 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Finished assignment for group at generation 3: {consumer-sms-2-b02aaf72-a089-4138-a90b-7a50cd83a191=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:46:50.906 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=17, memberId='consumer-austinGroup1-1-eb30b5ca-aad1-4661-b1b8-b41a4916f0f4', protocol='range'}
+2022-01-15 17:46:50.907 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:46:50.907 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully synced group in generation Generation{generationId=3, memberId='consumer-sms-2-b02aaf72-a089-4138-a90b-7a50cd83a191', protocol='range'}
+2022-01-15 17:46:50.907 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:46:50.910 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:46:50.910 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:46:50.983 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.983 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.984 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.984 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.984 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.984 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.984 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.984 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:46:50.985 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:46:50.985 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:46:55.149 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-15 17:46:55.149 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-15 17:46:55.150 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-15 17:48:47.539 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:48:47.539 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:48:47.539 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:48:47.539 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:48:47.540 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Member consumer-austinGroup1-1-eb30b5ca-aad1-4661-b1b8-b41a4916f0f4 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:48:47.540 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Member consumer-sms-2-b02aaf72-a089-4138-a90b-7a50cd83a191 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:48:47.541 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:48:47.541 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:48:47.560 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:48:47.560 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:48:47.561 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:48:47.561 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:48:47.561 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:48:47.561 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:48:47.568 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-15 17:48:47.568 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-sms-2 unregistered
+2022-01-15 17:48:47.569 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - sms: Consumer stopped
+2022-01-15 17:48:47.569 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - austinGroup1: Consumer stopped
+2022-01-15 17:48:47.572 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:48:47.573 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-15 17:48:47.576 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-15 17:48:52.942 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 34210 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-15 17:48:52.945 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-15 17:48:53.575 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-15 17:48:53.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2022-01-15 17:48:54.055 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-15 17:48:54.062 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:48:54.062 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-15 17:48:54.063 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-15 17:48:54.141 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-15 17:48:54.141 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms
+2022-01-15 17:48:54.252 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-15 17:48:54.645 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-15 17:48:54.723 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-15 17:48:54.760 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-15 17:48:54.864 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-15 17:48:54.957 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-15 17:48:55.420 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-15 17:48:55.430 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:48:56.318 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:48:56.377 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:48:56.377 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:48:56.377 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240136375
+2022-01-15 17:48:56.379 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
+2022-01-15 17:48:56.389 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-sms-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = sms
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:48:56.395 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:48:56.395 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:48:56.395 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240136395
+2022-01-15 17:48:56.396 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Subscribed to topic(s): austin
+2022-01-15 17:48:56.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:48:56.431 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-15 17:48:56.590 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.067 seconds (JVM running for 4.861)
+2022-01-15 17:48:56.838 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-sms-2, groupId=sms] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:48:56.838 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:48:56.840 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:48:56.840 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:48:56.842 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:48:56.842 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:48:56.893 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:48:56.894 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:48:56.911 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully joined group with generation Generation{generationId=5, memberId='consumer-sms-2-5b4434e3-2c8a-41af-98cd-0e1aa8c15f2d', protocol='range'}
+2022-01-15 17:48:56.911 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=19, memberId='consumer-austinGroup1-1-85470447-2ebe-4e0c-80b9-cf1bb8b75727', protocol='range'}
+2022-01-15 17:48:56.914 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Finished assignment for group at generation 5: {consumer-sms-2-5b4434e3-2c8a-41af-98cd-0e1aa8c15f2d=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:48:56.914 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 19: {consumer-austinGroup1-1-85470447-2ebe-4e0c-80b9-cf1bb8b75727=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:48:56.954 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully synced group in generation Generation{generationId=5, memberId='consumer-sms-2-5b4434e3-2c8a-41af-98cd-0e1aa8c15f2d', protocol='range'}
+2022-01-15 17:48:56.954 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=19, memberId='consumer-austinGroup1-1-85470447-2ebe-4e0c-80b9-cf1bb8b75727', protocol='range'}
+2022-01-15 17:48:56.955 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:48:56.955 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:48:56.958 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:48:56.958 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.014 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:48:57.015 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:48:57.015 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:49:00.515 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-15 17:49:00.515 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-15 17:49:00.517 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-01-15 17:50:56.953 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:50:56.953 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:50:56.954 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:50:56.954 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:50:56.954 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Member consumer-austinGroup1-1-85470447-2ebe-4e0c-80b9-cf1bb8b75727 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:50:56.954 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Member consumer-sms-2-5b4434e3-2c8a-41af-98cd-0e1aa8c15f2d sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:50:56.956 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:50:56.956 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:50:56.976 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:50:56.976 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:50:56.976 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:50:56.976 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:50:56.976 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:50:56.977 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:50:56.983 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-15 17:50:56.984 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-sms-2 unregistered
+2022-01-15 17:50:56.984 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - austinGroup1: Consumer stopped
+2022-01-15 17:50:56.984 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - sms: Consumer stopped
+2022-01-15 17:50:56.987 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:50:56.989 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-15 17:50:56.991 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-15 17:51:09.107 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 34316 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-15 17:51:09.110 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-15 17:51:09.729 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-15 17:51:09.780 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2022-01-15 17:51:10.245 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-15 17:51:10.252 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:51:10.253 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-15 17:51:10.253 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-15 17:51:10.333 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-15 17:51:10.333 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+2022-01-15 17:51:10.445 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-15 17:51:10.853 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-15 17:51:10.933 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-15 17:51:10.970 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-15 17:51:11.072 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-15 17:51:11.165 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-15 17:51:11.629 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-15 17:51:11.639 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:51:12.470 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:51:12.524 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:51:12.525 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:51:12.525 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240272523
+2022-01-15 17:51:12.527 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
+2022-01-15 17:51:12.536 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-sms-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = sms
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:51:12.541 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:51:12.542 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:51:12.542 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240272541
+2022-01-15 17:51:12.542 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Subscribed to topic(s): austin
+2022-01-15 17:51:12.543 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:51:12.716 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-15 17:51:12.725 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 4.041 seconds (JVM running for 4.844)
+2022-01-15 17:51:12.980 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:51:12.980 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-sms-2, groupId=sms] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:51:12.981 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:51:12.981 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:51:12.983 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:51:12.984 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:51:13.037 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:51:13.037 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:51:13.063 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=21, memberId='consumer-austinGroup1-1-3b952641-04e2-4ffc-aea9-34b45ea06292', protocol='range'}
+2022-01-15 17:51:13.063 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully joined group with generation Generation{generationId=7, memberId='consumer-sms-2-19c0a4d1-9a32-4d72-b1d0-45b967d38980', protocol='range'}
+2022-01-15 17:51:13.066 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Finished assignment for group at generation 7: {consumer-sms-2-19c0a4d1-9a32-4d72-b1d0-45b967d38980=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:51:13.066 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 21: {consumer-austinGroup1-1-3b952641-04e2-4ffc-aea9-34b45ea06292=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:51:13.091 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=21, memberId='consumer-austinGroup1-1-3b952641-04e2-4ffc-aea9-34b45ea06292', protocol='range'}
+2022-01-15 17:51:13.092 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:51:13.092 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully synced group in generation Generation{generationId=7, memberId='consumer-sms-2-19c0a4d1-9a32-4d72-b1d0-45b967d38980', protocol='range'}
+2022-01-15 17:51:13.093 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:51:13.095 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:51:13.095 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:51:13.161 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.161 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.161 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.161 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.161 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.162 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.162 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.162 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:51:13.163 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:51:13.163 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:51:18.109 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-15 17:51:18.109 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-15 17:51:18.110 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-15 17:52:34.320 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:52:34.320 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:52:34.321 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:52:34.321 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:52:34.321 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Member consumer-sms-2-19c0a4d1-9a32-4d72-b1d0-45b967d38980 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:52:34.321 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Member consumer-austinGroup1-1-3b952641-04e2-4ffc-aea9-34b45ea06292 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:52:34.322 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:52:34.322 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:52:34.393 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:52:34.394 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:52:34.394 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:52:34.394 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:52:34.394 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:52:34.395 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:52:34.401 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-15 17:52:34.401 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-sms-2 unregistered
+2022-01-15 17:52:34.402 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - austinGroup1: Consumer stopped
+2022-01-15 17:52:34.402 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - sms: Consumer stopped
+2022-01-15 17:52:34.405 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:52:34.407 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-15 17:52:34.410 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-15 17:53:13.547 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 34404 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-15 17:53:13.551 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-15 17:53:14.158 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-15 17:53:14.213 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2022-01-15 17:53:14.635 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-15 17:53:14.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:53:14.643 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-15 17:53:14.643 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-15 17:53:14.720 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-15 17:53:14.720 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1118 ms
+2022-01-15 17:53:14.832 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-15 17:53:15.162 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-15 17:53:15.242 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-15 17:53:15.277 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-15 17:53:15.372 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-15 17:53:15.458 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-15 17:53:15.906 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-15 17:53:15.915 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:53:16.729 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:53:16.781 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:53:16.782 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:53:16.782 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240396780
+2022-01-15 17:53:16.784 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
+2022-01-15 17:53:16.794 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-sms-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = sms
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:53:16.799 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:53:16.800 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:53:16.800 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240396799
+2022-01-15 17:53:16.800 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Subscribed to topic(s): austin
+2022-01-15 17:53:16.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:53:16.972 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-15 17:53:16.981 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.855 seconds (JVM running for 4.646)
+2022-01-15 17:53:17.241 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:53:17.241 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-sms-2, groupId=sms] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:53:17.242 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:53:17.242 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:53:17.244 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:53:17.244 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:53:17.297 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:53:17.297 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:53:17.316 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=23, memberId='consumer-austinGroup1-1-ad3ad496-0b82-4230-809f-ada1338afaba', protocol='range'}
+2022-01-15 17:53:17.316 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully joined group with generation Generation{generationId=9, memberId='consumer-sms-2-3270a1a7-88d4-4724-8def-ce170d75f69f', protocol='range'}
+2022-01-15 17:53:17.318 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 23: {consumer-austinGroup1-1-ad3ad496-0b82-4230-809f-ada1338afaba=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:53:17.318 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Finished assignment for group at generation 9: {consumer-sms-2-3270a1a7-88d4-4724-8def-ce170d75f69f=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:53:17.339 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=23, memberId='consumer-austinGroup1-1-ad3ad496-0b82-4230-809f-ada1338afaba', protocol='range'}
+2022-01-15 17:53:17.340 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:53:17.341 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully synced group in generation Generation{generationId=9, memberId='consumer-sms-2-3270a1a7-88d4-4724-8def-ce170d75f69f', protocol='range'}
+2022-01-15 17:53:17.341 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:53:17.343 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:53:17.343 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:53:17.384 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.384 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.385 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.385 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.385 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.385 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.385 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.385 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:53:17.386 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:53:17.386 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:53:29.870 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-15 17:53:29.870 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-15 17:53:29.871 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-15 17:54:36.355 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:54:36.355 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:54:36.355 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:54:36.355 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:54:36.356 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Member consumer-austinGroup1-1-ad3ad496-0b82-4230-809f-ada1338afaba sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:54:36.356 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Member consumer-sms-2-3270a1a7-88d4-4724-8def-ce170d75f69f sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 17:54:36.357 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:54:36.357 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 17:54:36.383 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:54:36.383 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 17:54:36.383 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:54:36.383 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 17:54:36.384 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:54:36.384 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 17:54:36.389 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-sms-2 unregistered
+2022-01-15 17:54:36.389 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - sms: Consumer stopped
+2022-01-15 17:54:36.389 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-15 17:54:36.389 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - austinGroup1: Consumer stopped
+2022-01-15 17:54:36.393 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:54:36.394 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-15 17:54:36.397 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-01-15 17:59:52.213 [main] INFO  com.monster.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_181 on MonsterdeMacBook-Pro.local with PID 34772 (/Users/monster/Code/austin-learn/austin-web/target/classes started by monster in /Users/monster/Code/austin-learn)
+2022-01-15 17:59:52.216 [main] INFO  com.monster.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2022-01-15 17:59:52.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-15 17:59:52.844 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2022-01-15 17:59:53.280 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-15 17:59:53.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:59:53.287 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-15 17:59:53.287 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-15 17:59:53.366 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-15 17:59:53.366 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1101 ms
+2022-01-15 17:59:53.481 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-15 17:59:53.843 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-15 17:59:53.924 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-15 17:59:53.959 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-15 17:59:54.051 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-15 17:59:54.139 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-01-15 17:59:54.585 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-15 17:59:54.594 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 17:59:55.407 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-austinGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = austinGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:59:55.461 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:59:55.461 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:59:55.461 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240795460
+2022-01-15 17:59:55.463 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Subscribed to topic(s): austin
+2022-01-15 17:59:55.473 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [106.55.198.243:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-sms-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = sms
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-01-15 17:59:55.479 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 17:59:55.479 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 17:59:55.479 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240795479
+2022-01-15 17:59:55.479 [main] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Subscribed to topic(s): austin
+2022-01-15 17:59:55.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-15 17:59:55.655 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-15 17:59:55.664 [main] INFO  com.monster.austin.AustinApplication - Started AustinApplication in 3.904 seconds (JVM running for 4.661)
+2022-01-15 17:59:55.916 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-sms-2, groupId=sms] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:59:55.916 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 17:59:55.917 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:59:55.917 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Discovered group coordinator 106.55.198.243:9092 (id: 2147483647 rack: null)
+2022-01-15 17:59:55.919 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:59:55.919 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:59:55.970 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] (Re-)joining group
+2022-01-15 17:59:55.970 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] (Re-)joining group
+2022-01-15 17:59:55.989 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully joined group with generation Generation{generationId=27, memberId='consumer-austinGroup1-1-1c596759-601b-431d-9e13-d5d3172f87a2', protocol='range'}
+2022-01-15 17:59:55.989 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully joined group with generation Generation{generationId=13, memberId='consumer-sms-2-1c7d819b-a4ff-453b-9f34-9347522b755e', protocol='range'}
+2022-01-15 17:59:55.993 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Finished assignment for group at generation 27: {consumer-austinGroup1-1-1c596759-601b-431d-9e13-d5d3172f87a2=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:59:55.993 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Finished assignment for group at generation 13: {consumer-sms-2-1c7d819b-a4ff-453b-9f34-9347522b755e=Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])}
+2022-01-15 17:59:56.015 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Successfully synced group in generation Generation{generationId=27, memberId='consumer-austinGroup1-1-1c596759-601b-431d-9e13-d5d3172f87a2', protocol='range'}
+2022-01-15 17:59:56.015 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Successfully synced group in generation Generation{generationId=13, memberId='consumer-sms-2-1c7d819b-a4ff-453b-9f34-9347522b755e', protocol='range'}
+2022-01-15 17:59:56.016 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:59:56.016 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Notifying assignor about the new Assignment(partitions=[austin-0, austin-1, austin-2, austin-3])
+2022-01-15 17:59:56.019 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:59:56.019 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Adding newly assigned partitions: austin-3, austin-2, austin-1, austin-0
+2022-01-15 17:59:56.062 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.062 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-3 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.063 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=10, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.063 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-2 to the committed offset FetchPosition{offset=10, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.063 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.063 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-1 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.063 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.063 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Setting offset for partition austin-0 to the committed offset FetchPosition{offset=4, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[106.55.198.243:9092 (id: 0 rack: null)], epoch=0}}
+2022-01-15 17:59:56.064 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 17:59:56.064 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions assigned: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 18:00:00.345 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-15 18:00:00.346 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-15 18:00:00.347 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-15 18:00:00.641 [http-nio-8080-exec-2] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [106.55.198.243:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-01-15 18:00:00.655 [http-nio-8080-exec-2] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2022-01-15 18:00:00.655 [http-nio-8080-exec-2] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2022-01-15 18:00:00.655 [http-nio-8080-exec-2] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642240800655
+2022-01-15 18:00:00.737 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: rCJPkQFMSFuJF3__mQzvGQ
+2022-01-15 18:00:00.844 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  com.monster.austin.kafkatest.UserLogConsumer - >>>>>>>>>> record =Optional[[{"@type":"com.monster.austin.domain.TaskInfo","businessId":1000000120220115,"contentModel":{"@type":"com.monster.austin.dto.ImContentModel"},"deduplicationTime":1,"idType":10,"isNightShield":0,"messageTemplateId":1,"msgType":10,"receiver":Set["13265910865"],"sendAccount":66,"sendChannel":10,"templateType":10}]]
+2022-01-15 18:02:19.452 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  com.monster.austin.kafkatest.UserLogConsumer - >>>>>>>>>> record =Optional[[{"@type":"com.monster.austin.domain.TaskInfo","businessId":1000000120220115,"contentModel":{"@type":"com.monster.austin.dto.SmsContentModel","content":"666666"},"deduplicationTime":1,"idType":20,"isNightShield":0,"messageTemplateId":1,"msgType":10,"receiver":Set["13265910865"],"sendAccount":66,"sendChannel":30,"templateType":10}]]
+2022-01-15 18:02:19.916 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  com.monster.austin.Receiver - receiver message:[{"businessId":1000000120220115,"contentModel":{"content":"666666"},"deduplicationTime":1,"idType":20,"isNightShield":0,"messageTemplateId":1,"msgType":10,"receiver":["13265910865"],"sendAccount":66,"sendChannel":30,"templateType":10}]
+2022-01-15 18:03:51.567 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 18:03:51.567 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Revoke previously assigned partitions austin-3, austin-2, austin-1, austin-0
+2022-01-15 18:03:51.567 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - austinGroup1: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 18:03:51.567 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - sms: partitions revoked: [austin-3, austin-2, austin-1, austin-0]
+2022-01-15 18:03:51.568 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Member consumer-austinGroup1-1-1c596759-601b-431d-9e13-d5d3172f87a2 sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 18:03:51.568 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-sms-2, groupId=sms] Member consumer-sms-2-1c7d819b-a4ff-453b-9f34-9347522b755e sending LeaveGroup request to coordinator 106.55.198.243:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-01-15 18:03:51.570 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-austinGroup1-1, groupId=austinGroup1] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 18:03:51.570 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-sms-2, groupId=sms] Unsubscribed all topics or patterns and assigned partitions
+2022-01-15 18:03:51.590 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 18:03:51.590 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 18:03:51.590 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 18:03:51.594 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-sms-2 unregistered
+2022-01-15 18:03:51.595 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - sms: Consumer stopped
+2022-01-15 18:03:51.606 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 18:03:51.606 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 18:03:51.607 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 18:03:51.608 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-austinGroup1-1 unregistered
+2022-01-15 18:03:51.609 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - austinGroup1: Consumer stopped
+2022-01-15 18:03:51.611 [SpringApplicationShutdownHook] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-01-15 18:03:51.612 [SpringApplicationShutdownHook] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-15 18:03:51.612 [SpringApplicationShutdownHook] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-15 18:03:51.612 [SpringApplicationShutdownHook] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-15 18:03:51.613 [SpringApplicationShutdownHook] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2022-01-15 18:03:51.614 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-15 18:03:51.616 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-01-15 18:03:51.619 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

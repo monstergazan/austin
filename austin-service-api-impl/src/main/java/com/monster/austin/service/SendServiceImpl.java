@@ -7,9 +7,12 @@ import com.monster.austin.domain.SendTaskModel;
 import com.monster.austin.enums.RequestType;
 import com.monster.austin.pipline.ProcessContext;
 import com.monster.austin.pipline.ProcessController;
-import com.monster.austin.pojo.TaskInfo;
+import com.monster.austin.domain.TaskInfo;
+import com.monster.austin.vo.BasicResultVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Arrays;
 
 /**
  * 发送接口
@@ -23,13 +26,15 @@ public class SendServiceImpl implements SendService {
     @Override
     public SendResponse send(SendRequest sendRequest) {
         SendTaskModel sendTaskModel = SendTaskModel.builder()
-                .requestType(RequestType.SINGLE.getCode())
-                .messageParam(sendRequest.getMessageParam())
-                .taskInfo(TaskInfo.builder().messageTemplateId(sendRequest.getMessageTemplateId()).build())
+                .messageTemplateId(sendRequest.getMessageTemplateId())
+                .messageParamList(Arrays.asList(sendRequest.getMessageParam()))
                 .build();
         ProcessContext context = ProcessContext.builder()
                 .code(sendRequest.getCode())
-                .processModel(sendTaskModel).build();
+                .processModel(sendTaskModel)
+                .needBreak(false)
+                .response(BasicResultVO.success())
+                .build();
         ProcessContext process = processController.process(context);
         return new SendResponse(process.getResponse().getCode(),process.getResponse().getMsg());
     }
@@ -37,14 +42,18 @@ public class SendServiceImpl implements SendService {
     @Override
     public SendResponse batchSend(BatchSendRequest batchSendRequest) {
         SendTaskModel sendTaskModel = SendTaskModel.builder()
-                .requestType(RequestType.BATCH.getCode())
+                .messageTemplateId(batchSendRequest.getMessageTemplateId())
                 .messageParamList(batchSendRequest.getMessageParamList())
-                .taskInfo(TaskInfo.builder().messageTemplateId(batchSendRequest.getMessageTemplateId()).build())
                 .build();
+
         ProcessContext context = ProcessContext.builder()
                 .code(batchSendRequest.getCode())
-                .processModel(sendTaskModel).build();
+                .processModel(sendTaskModel)
+                .needBreak(false)
+                .response(BasicResultVO.success()).build();
+
         ProcessContext process = processController.process(context);
-        return new SendResponse(process.getResponse().getCode(),process.getResponse().getMsg());
+
+        return new SendResponse(process.getResponse().getCode(), process.getResponse().getMsg());
     }
 }

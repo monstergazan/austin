@@ -1,7 +1,7 @@
 package com.monster.austin.script;
 
 import com.monster.austin.domain.SmsRecord;
-import com.monster.austin.pojo.SmsParam;
+import com.monster.austin.domain.SmsParam;
 
 import java.util.List;
 

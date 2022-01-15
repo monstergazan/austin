@@ -11,7 +11,7 @@ import lombok.ToString;
 @Getter
 @ToString
 public enum IdType {
-    USER_ID(10, "userid"),
+    USER_ID(10, "useId"),
     DID(20, "did"),
     PHONE(30, "phone"),
     OPEN_ID(40, "openId"),

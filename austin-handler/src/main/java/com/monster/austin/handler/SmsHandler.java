@@ -2,10 +2,12 @@ package com.monster.austin.handler;
 
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.util.StrUtil;
 import com.monster.austin.dao.SmsRecordDao;
 import com.monster.austin.domain.SmsRecord;
-import com.monster.austin.pojo.SmsParam;
-import com.monster.austin.pojo.TaskInfo;
+import com.monster.austin.domain.SmsParam;
+import com.monster.austin.domain.TaskInfo;
+import com.monster.austin.dto.SmsContentModel;
 import com.monster.austin.script.SmsScript;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -23,9 +25,16 @@ public class SmsHandler implements Handler{
 
     @Override
     public boolean doHandler(TaskInfo taskInfo) {
+        SmsContentModel smsContentModel = (SmsContentModel) taskInfo.getContentModel();
+        String resultContent;
+        if(StrUtil.isNotBlank(smsContentModel.getUrl())){
+            resultContent = smsContentModel.getContent() + " " + smsContentModel.getUrl();
+        }else{
+            resultContent = smsContentModel.getContent();
+        }
         SmsParam smsParam = SmsParam.builder()
                 .phones(taskInfo.getReceiver())
-                .content(taskInfo.getContent())
+                .content(resultContent)
                 .messageTemplateId(taskInfo.getMessageTemplateId())
                 .supplierId(10)
                 .supplierName("腾讯云通知类消息渠道").build();

@@ -1,4 +1,4 @@
-package com.monster.austin.constant;
+package com.monster.austin.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,7 +22,8 @@ public enum RespStatusEnum {
     /**
      * 客户端
      */
-    CLIENT_BAD_PARAMETERS("A0100", "客户端参数错误"),
+    CLIENT_BAD_PARAMETERS("A0001", "客户端参数错误"),
+    TEMPLATE_NOT_FOUND("A0002", "找不到模板或模板已被删除"),
 
     /**
      * 系统
